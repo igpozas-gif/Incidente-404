@@ -5,6 +5,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        for (int i=1; i <5; i++ ){
+
         Scanner scanner = new Scanner(System.in);
 
         Estudiante estudiante = new Estudiante ("Ignacio Pozas", "Ingeniería en informática", 26);
@@ -33,7 +35,13 @@ public class Main {
             System.out.println(" Estudiante viejote");
         }
 
+
         estudiante1.mostrarInformacion();
+        {
+
+
+        }
 
     }
+}
 }
